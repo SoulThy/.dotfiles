@@ -1,0 +1,34 @@
+[2m2024-10-03T16:33:16.644584Z[0m [31mERROR[0m [2mglazewm::common::commands::shell_exec[0m[2m:[0m [3merr_message[0m[2m=[0m"Failed to execute 'zebar'.\n\nError: The operation was canceled by the user. (0x800704C7)"
+[2m2024-10-03T16:46:28.636079Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m gaps.outer_gap: invalid type: string "2px", expected struct RectDelta at line 35 column 14
+[2m2024-10-03T16:47:42.496724Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[0]: missing field `bindings` at line 149 column 5
+[2m2024-10-03T16:49:50.779005Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[0]: missing field `commands` at line 149 column 5
+[2m2024-10-03T16:50:30.591748Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[0].commands: invalid type: string "exec C:\\\\Program Files\\\\Mozilla Firefox\\\\firefox.exe", expected a sequence at line 149 column 15
+[2m2024-10-03T16:51:01.195958Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[0].commands: invalid type: string "exec C:\\Program Files\\Mozilla Firefox\\firefox.exe", expected a sequence at line 149 column 15
+[2m2024-10-03T16:51:23.770652Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[0].commands: unrecognized subcommand
+ at line 149 column 15
+[2m2024-10-03T16:53:12.059476Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[0].commands: unrecognized subcommand
+ at line 149 column 15
+[2m2024-10-03T16:53:59.654214Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[0].commands: unrecognized subcommand
+ at line 149 column 15
+[2m2024-10-03T16:56:21.233774Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[0].commands: unrecognized subcommand
+ at line 149 column 15
+[2m2024-10-03T16:59:03.488830Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m found unknown escape character at line 149 column 38, while parsing a quoted scalar at line 149 column 16
+[2m2024-10-03T16:59:18.046590Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[0].commands: unrecognized subcommand
+ at line 149 column 15
+[2m2024-10-03T16:59:35.237311Z[0m [31mERROR[0m [2mglazewm::common::commands::shell_exec[0m[2m:[0m [3merr_message[0m[2m=[0m"Failed to execute 'zebar'.\n\nError: The operation was canceled by the user. (0x800704C7)"
+[2m2024-10-03T17:01:37.717738Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2024-10-03T17:02:12.460593Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[0].commands: unrecognized subcommand
+ at line 151 column 15
+[2m2024-10-03T17:05:28.822290Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[0]: missing field `commands` at line 149 column 5
+[2m2024-10-03T17:06:17.019876Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[0]: missing field `commands` at line 149 column 5
+[2m2024-10-03T17:08:34.750556Z[0m [31mERROR[0m [2mglazewm::common::commands::shell_exec[0m[2m:[0m [3merr_message[0m[2m=[0m"Failed to execute 'zebar'.\n\nError: The operation was canceled by the user. (0x800704C7)"
+[2m2024-10-03T17:10:28.309842Z[0m [31mERROR[0m [2mglazewm::common::commands::shell_exec[0m[2m:[0m [3merr_message[0m[2m=[0m"Failed to execute 'zebar'.\n\nError: The operation was canceled by the user. (0x800704C7)"
+[2m2024-10-03T17:10:42.767667Z[0m [31mERROR[0m [2mglazewm::common::commands::shell_exec[0m[2m:[0m [3merr_message[0m[2m=[0m"Failed to execute '\"C:\\\\Program Files\\\\Mozilla Firefox\\\\firefox.exe\"'.\n\nError: Command doesn't have an ending `\"`: '\"C:\\\\Program Files\\\\Mozilla Firefox\\\\firefox.exe\"'."
+[2m2024-10-03T17:11:43.202937Z[0m [31mERROR[0m [2mglazewm::common::commands::shell_exec[0m[2m:[0m [3merr_message[0m[2m=[0m"Failed to execute '\"C:\\\\Program Files\\\\Mozilla Firefox\\\\firefox.exe\"'.\n\nError: Command doesn't have an ending `\"`: '\"C:\\\\Program Files\\\\Mozilla Firefox\\\\firefox.exe\"'."
+[2m2024-10-03T17:11:53.627476Z[0m [31mERROR[0m [2mglazewm::common::commands::shell_exec[0m[2m:[0m [3merr_message[0m[2m=[0m"Failed to execute '\"C:\\\\Program Files\\\\Mozilla Firefox\\\\firefox.exe\"'.\n\nError: Command doesn't have an ending `\"`: '\"C:\\\\Program Files\\\\Mozilla Firefox\\\\firefox.exe\"'."
+[2m2024-10-03T17:12:59.695262Z[0m [31mERROR[0m [2mglazewm::common::commands::shell_exec[0m[2m:[0m [3merr_message[0m[2m=[0m"Failed to execute 'zebar'.\n\nError: The operation was canceled by the user. (0x800704C7)"
+[2m2024-10-03T17:13:05.959147Z[0m [31mERROR[0m [2mglazewm::common::commands::shell_exec[0m[2m:[0m [3merr_message[0m[2m=[0m"Failed to execute ''C:\\Program Files\\Mozilla Firefox\\firefox.exe''.\n\nError: Program path is not valid for command ''C:\\Program Files\\Mozilla Firefox\\firefox.exe''."
+[2m2024-10-03T17:16:07.663480Z[0m [31mERROR[0m [2mglazewm::common::commands::shell_exec[0m[2m:[0m [3merr_message[0m[2m=[0m"Failed to execute ''C:\\Program Files\\Mozilla Firefox\\firefox.exe''.\n\nError: Program path is not valid for command ''C:\\Program Files\\Mozilla Firefox\\firefox.exe''."
+[2m2024-10-03T17:18:36.271003Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m found unknown escape character at line 149 column 45, while parsing a quoted scalar at line 149 column 16
+[2m2024-10-03T17:20:26.108387Z[0m [31mERROR[0m [2mglazewm::common::commands::shell_exec[0m[2m:[0m [3merr_message[0m[2m=[0m"Failed to execute '\"C:\\Program Files\\Mozilla Firefox\\firefox.exe\"'.\n\nError: Command doesn't have an ending `\"`: '\"C:\\Program Files\\Mozilla Firefox\\firefox.exe\"'."
+[2m2024-10-03T17:23:02.746621Z[0m [31mERROR[0m [2mglazewm::common::commands::shell_exec[0m[2m:[0m [3merr_message[0m[2m=[0m"Failed to execute '\"C:\\\\Program Files\\\\Mozilla Firefox\\\\firefox.exe\"'.\n\nError: Command doesn't have an ending `\"`: '\"C:\\\\Program Files\\\\Mozilla Firefox\\\\firefox.exe\"'."
