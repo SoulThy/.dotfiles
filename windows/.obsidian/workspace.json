@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b89f0d81996d4016",
+            "id": "774c14bf67732b0b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ricerca-operativa/esercizi/Esercizio PL - verifica vertici.md",
+                "file": "ricerca-operativa/esercizi/Esercizio PL - MultiPlant.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ricerca-operativa/esercizi/Esercizio PL - verifica vertici.md",
+                "file": "ricerca-operativa/esercizi/Esercizio PL - MultiPlant.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ricerca-operativa/esercizi/Esercizio PL - verifica vertici.md",
+                "file": "ricerca-operativa/esercizi/Esercizio PL - MultiPlant.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ricerca-operativa/esercizi/Esercizio PL - verifica vertici.md"
+                "file": "ricerca-operativa/esercizi/Esercizio PL - MultiPlant.md"
               }
             }
           }
@@ -149,15 +149,29 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b89f0d81996d4016",
+  "active": "232d9abeec35fac3",
   "lastOpenFiles": [
-    "ricerca-operativa/Teorema fondamentale della programmazione lineare.md",
+    "ricerca-operativa/esercizi-python",
+    "ricerca-operativa/Teoremi/Teorema fondamentale della programmazione lineare.md",
+    "ricerca-operativa/_images/vincoli-esercizio-multiplant.png",
+    "ricerca-operativa/esercizi/Esercizio PL - MultiPlant.md",
+    "ricerca-operativa/_images/Dispense_Modelli_multi-plant_multi-periodo.pdf",
+    "ricerca-operativa/esercizi/Esercizio PL - verifica vertici.md",
+    "ricerca-operativa/Caratterizzazione di un problema di PL.md",
+    "ricerca-operativa/2024-10-11.md",
     "ricerca-operativa/Relazione di un poliedro contenente una retta.md",
     "ricerca-operativa/Lemma del Miglioramento della Soluzione in PL.md",
+    "basi-di-dati/SQL.md",
+    "ricerca-operativa/definizioni/Definizione di valore ottimo.md",
+    "ricerca-operativa/definizioni/Definizione di problema inammissibile.md",
+    "ricerca-operativa/_images/Esercizi-con-soluzione.pdf",
+    "ricerca-operativa/Teorema fondamentale della programmazione lineare.md",
+    "4913",
+    "esercizi/nuovoesercizio.md",
+    "esercizi",
+    "nuovoesericioz.md",
     "ricerca-operativa/stuff.md",
     "ricerca-operativa/_images/poliedrosenzavertici.svg",
-    "Untitled.md",
-    "ricerca-operativa/esercizi/Esercizio PL - verifica vertici.md",
     "basi-di-dati/Progetto logico ER.md",
     "Drawing 2024-10-09 05.13.59.excalidraw.md",
     "ricerca-operativa/esercizi",
@@ -166,7 +180,6 @@
     "ricerca-operativa/_images",
     "basi-di-dati/modelli-ER/Modello ER Assicurazioni.md",
     "basi-di-dati/Schema relazionale grafico.md",
-    "basi-di-dati/SQL.md",
     "Drawing 2024-10-07 20.30.37.excalidraw.md",
     "Drawing 2024-10-07 20.30.37.excalidraw.svg",
     "2024-10-07.md",
@@ -180,10 +193,8 @@
     "basi-di-dati/images/schema-relazionale-uni.svg",
     "basi-di-dati/_images",
     "diagram-20241005.svg",
-    "diagram-20241005(1).svg",
     "basi-di-dati/Untitled 1.md",
     "2024-10-04.md",
-    "Welcome.md",
     "Untitled.canvas",
     "basi-di-dati",
     "ricerca-operativa"
