@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "443a14a13d3129f8",
+        "id": "fe0302f897f42414",
         "type": "tabs",
         "children": [
           {
-            "id": "774c14bf67732b0b",
+            "id": "75e1a2078cf3ff61",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ricerca-operativa/esercizi/Esercizio PL - MultiPlant.md",
+                "file": "basi-di-dati/02-Practice-SQL/02-Operatori-Aggregativi/SQL - Operatori aggregativi - CORSI.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5
+    "width": 394.5
   },
   "right": {
     "id": "ac73c47c40d267c8",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ricerca-operativa/esercizi/Esercizio PL - MultiPlant.md",
+                "file": "basi-di-dati/02-Practice-SQL/02-Operatori-Aggregativi/SQL - Operatori aggregativi - CORSI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ricerca-operativa/esercizi/Esercizio PL - MultiPlant.md",
+                "file": "basi-di-dati/02-Practice-SQL/02-Operatori-Aggregativi/SQL - Operatori aggregativi - CORSI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ricerca-operativa/esercizi/Esercizio PL - MultiPlant.md"
+                "file": "basi-di-dati/02-Practice-SQL/02-Operatori-Aggregativi/SQL - Operatori aggregativi - CORSI.md"
               }
             }
           }
@@ -149,54 +149,53 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "232d9abeec35fac3",
+  "active": "75e1a2078cf3ff61",
   "lastOpenFiles": [
-    "ricerca-operativa/esercizi-python",
-    "ricerca-operativa/Teoremi/Teorema fondamentale della programmazione lineare.md",
+    "basi-di-dati/02-Practice-SQL/02-Operatori-Aggregativi/SQL - Operatori aggregativi - STUDENTI.md",
+    "basi-di-dati/02-Practice-SQL/Come allenarsi sulle query.md",
+    "basi-di-dati/02-Practice-SQL/02-Operatori-Aggregativi/SQL - Operatori aggregativi - CORSI.md",
+    "basi-di-dati/_risorse-professore/database-corsi.db",
+    "_resources/database-corsi.db.md",
+    "basi-di-dati/02-Practice-SQL/01-COMANDI/INSERT INTO.md",
+    "basi-di-dati/02-Practice-SQL/01-COMANDI/DELETE FROM.md",
+    "basi-di-dati/02-Practice-SQL/02-Operatori-Aggregativi/SQL - Operatori aggregativi - POLIZZE.md",
+    "basi-di-dati/02-Practice-SQL/02-Operatori-Aggregativi/SQL - Operatori aggregativi - FATTURE.md",
+    "basi-di-dati/01-Teoria/SQL.md",
+    "basi-di-dati/_resources.md",
+    "_resources",
+    "basi-di-dati/_images/database-corsi.db",
+    "basi-di-dati/02-Practice-SQL/03-Database-Popolati/01-Database-Studenti-Esami-Corsi/ESAMINI.db",
+    "basi-di-dati/02-Practice-SQL/03-Database-Popolati/01-Database-Studenti-Esami-Corsi",
+    "basi-di-dati/02-Practice-SQL/03-Database-Popolati",
+    "basi-di-dati/02-Practice-SQL/02-Operatori-Aggregativi/Operatori aggregativi.md",
+    "basi-di-dati/01-Teoria/Progetto logico ER.md",
+    "basi-di-dati/01-Teoria/Schema relazionale grafico.md",
+    "basi-di-dati/03-Modelli-ER/Modello ER Assicurazioni.md",
+    "basi-di-dati/03-Modelli-ER/Modello ER Universita.md",
+    "basi-di-dati/02-Practice-SQL/01-COMANDI/SET.md",
+    "ricerca-operativa/01-Teoria/Caratterizzazione di un problema di PL.md",
+    "ricerca-operativa/02-Practice",
+    "ricerca-operativa/01-Teoria",
+    "basi-di-dati/02-Practice-SQL/02-Operatori-Aggregativi",
+    "basi-di-dati/02-Practice-SQL",
+    "basi-di-dati/2024-10-14.md",
+    "basi-di-dati/risorse-professore/mini-db-esami/MINI_ESAMI.jpg",
+    "Drawing 2024-10-14 17.46.11.excalidraw.md",
+    "basi-di-dati/_images/fattura-riga-ER.svg",
+    "Drawing 2024-10-14 17.09.44.excalidraw.md",
+    "basi-di-dati/_images/schemaER-vettura-persona-polizza.svg",
+    "basi-di-dati/_images/schema-vetture-persone-polizze-Q1.svg",
+    "schema-vetture-persone-polizze-Q1.md",
+    "schema-stud-corsi-Q2.md",
+    "basi-di-dati/_images/schema-stud-corsi-Q2.svg",
+    "basi-di-dati/_images/tabella-fatture.svg",
+    "basi-di-dati/_images/tabella-fatt-riga-Q1.svg",
+    "basi-di-dati/_images/tabella-stud-fatt-Q1.svg",
+    "basi-di-dati/_images/tabelle-studenti-esami.svg",
+    "fifthexcali.md",
+    "fourthexcali.md",
+    "thirdexcali.md",
     "ricerca-operativa/_images/vincoli-esercizio-multiplant.png",
-    "ricerca-operativa/esercizi/Esercizio PL - MultiPlant.md",
-    "ricerca-operativa/_images/Dispense_Modelli_multi-plant_multi-periodo.pdf",
-    "ricerca-operativa/esercizi/Esercizio PL - verifica vertici.md",
-    "ricerca-operativa/Caratterizzazione di un problema di PL.md",
-    "ricerca-operativa/2024-10-11.md",
-    "ricerca-operativa/Relazione di un poliedro contenente una retta.md",
-    "ricerca-operativa/Lemma del Miglioramento della Soluzione in PL.md",
-    "basi-di-dati/SQL.md",
-    "ricerca-operativa/definizioni/Definizione di valore ottimo.md",
-    "ricerca-operativa/definizioni/Definizione di problema inammissibile.md",
-    "ricerca-operativa/_images/Esercizi-con-soluzione.pdf",
-    "ricerca-operativa/Teorema fondamentale della programmazione lineare.md",
-    "4913",
-    "esercizi/nuovoesercizio.md",
-    "esercizi",
-    "nuovoesericioz.md",
-    "ricerca-operativa/stuff.md",
-    "ricerca-operativa/_images/poliedrosenzavertici.svg",
-    "basi-di-dati/Progetto logico ER.md",
-    "Drawing 2024-10-09 05.13.59.excalidraw.md",
-    "ricerca-operativa/esercizi",
-    "ricerca-operativa/_images/poliedro-primoquadrante.svg",
-    "basi-di-dati/modelli-ER/Modello ER Universita.md",
-    "ricerca-operativa/_images",
-    "basi-di-dati/modelli-ER/Modello ER Assicurazioni.md",
-    "basi-di-dati/Schema relazionale grafico.md",
-    "Drawing 2024-10-07 20.30.37.excalidraw.md",
-    "Drawing 2024-10-07 20.30.37.excalidraw.svg",
-    "2024-10-07.md",
-    "basi-di-dati/Modello ER.md",
-    "basi-di-dati/modelli-ER",
-    "basi-di-dati/_images/progetto-logico-unviersita.svg",
-    "basi-di-dati/_images/schemaER-assicurazioni.svg",
-    "basi-di-dati/_images/schema-relazionale-esempio.svg",
-    "basi-di-dati/_images/regioni-macroentita.svg",
-    "Schema ER.md",
-    "basi-di-dati/images/schema-relazionale-uni.svg",
-    "basi-di-dati/_images",
-    "diagram-20241005.svg",
-    "basi-di-dati/Untitled 1.md",
-    "2024-10-04.md",
-    "Untitled.canvas",
-    "basi-di-dati",
-    "ricerca-operativa"
+    "Untitled.canvas"
   ]
 }
