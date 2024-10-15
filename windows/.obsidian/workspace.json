@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fe0302f897f42414",
+        "id": "e3ff8de2ad48a88a",
         "type": "tabs",
         "children": [
           {
-            "id": "75e1a2078cf3ff61",
+            "id": "1595d584c7f70d9a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "basi-di-dati/02-Practice-SQL/02-Operatori-Aggregativi/SQL - Operatori aggregativi - CORSI.md",
+                "file": "basi-di-dati/01-Teoria/01-SQL/Subquery.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 394.5
+    "width": 303.5
   },
   "right": {
     "id": "ac73c47c40d267c8",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "basi-di-dati/02-Practice-SQL/02-Operatori-Aggregativi/SQL - Operatori aggregativi - CORSI.md",
+                "file": "basi-di-dati/01-Teoria/01-SQL/Subquery.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "basi-di-dati/02-Practice-SQL/02-Operatori-Aggregativi/SQL - Operatori aggregativi - CORSI.md",
+                "file": "basi-di-dati/01-Teoria/01-SQL/Subquery.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,12 +125,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "basi-di-dati/02-Practice-SQL/02-Operatori-Aggregativi/SQL - Operatori aggregativi - CORSI.md"
+                "file": "basi-di-dati/01-Teoria/01-SQL/Subquery.md"
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -149,53 +149,54 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "75e1a2078cf3ff61",
+  "active": "232d9abeec35fac3",
   "lastOpenFiles": [
-    "basi-di-dati/02-Practice-SQL/02-Operatori-Aggregativi/SQL - Operatori aggregativi - STUDENTI.md",
+    "basi-di-dati/01-Teoria/01-SQL/Structured Query Language.md",
+    "basi-di-dati/01-Teoria/01-SQL/Operatori aggregativi.md",
+    "basi-di-dati/01-Teoria/Progetto logico ER.md",
+    "basi-di-dati/01-Teoria/Schema relazionale grafico.md",
+    "basi-di-dati/02-Practice-SQL/01-COMANDI/CREATE VIEW.md",
+    "basi-di-dati/02-Practice-SQL/01-COMANDI/DELETE FROM.md",
+    "basi-di-dati/02-Practice-SQL/01-COMANDI/SET.md",
+    "basi-di-dati/02-Practice-SQL/01-COMANDI/INSERT INTO.md",
+    "basi-di-dati/02-Practice-SQL/01-COMANDI/HAVING.md",
+    "basi-di-dati/02-Practice-SQL/02-Query/SQL - CORSI.md",
+    "basi-di-dati/02-Practice-SQL/02-Query/SQL - FATTURE.md",
+    "basi-di-dati/02-Practice-SQL/02-Query/SQL - POLIZZE.md",
     "basi-di-dati/02-Practice-SQL/Come allenarsi sulle query.md",
-    "basi-di-dati/02-Practice-SQL/02-Operatori-Aggregativi/SQL - Operatori aggregativi - CORSI.md",
+    "basi-di-dati/03-Modelli-ER/Modello ER Biblioteca.md",
+    "basi-di-dati/03-Modelli-ER/Modello ER Assicurazioni.md",
+    "basi-di-dati/03-Modelli-ER/Modello ER Universita.md",
+    "basi-di-dati/2024-10-15.md",
+    "basi-di-dati/_images/diagramma-stati-richiesta-stato.svg",
+    "basi-di-dati/_images/modello-er-biblioteca.svg",
+    "Drawing 2024-10-15 11.23.24.excalidraw.md",
+    "Drawing 2024-10-15 12.10.07.excalidraw.md",
+    "basi-di-dati/01-Teoria/01-SQL/Subquery.md",
+    "basi-di-dati/01-Teoria/01-SQL",
+    "basi-di-dati/02-Practice-SQL/01-COMANDI/SQL - Operatori aggregativi - STUDENTI.md",
+    "basi-di-dati/02-Practice-SQL/02-Operatori-Aggregativi/SQL - Operatori aggregativi - STUDENTI.md",
+    "basi-di-dati/_images/schema-esempio-subquery2.svg",
+    "Drawing 2024-10-15 09.57.12.excalidraw.md",
+    "Drawing 2024-10-15 10.09.57.excalidraw.md",
+    "basi-di-dati/_images/schema-esempio-subquery1.svg",
     "basi-di-dati/_risorse-professore/database-corsi.db",
     "_resources/database-corsi.db.md",
-    "basi-di-dati/02-Practice-SQL/01-COMANDI/INSERT INTO.md",
-    "basi-di-dati/02-Practice-SQL/01-COMANDI/DELETE FROM.md",
-    "basi-di-dati/02-Practice-SQL/02-Operatori-Aggregativi/SQL - Operatori aggregativi - POLIZZE.md",
-    "basi-di-dati/02-Practice-SQL/02-Operatori-Aggregativi/SQL - Operatori aggregativi - FATTURE.md",
-    "basi-di-dati/01-Teoria/SQL.md",
     "basi-di-dati/_resources.md",
     "_resources",
     "basi-di-dati/_images/database-corsi.db",
     "basi-di-dati/02-Practice-SQL/03-Database-Popolati/01-Database-Studenti-Esami-Corsi/ESAMINI.db",
     "basi-di-dati/02-Practice-SQL/03-Database-Popolati/01-Database-Studenti-Esami-Corsi",
     "basi-di-dati/02-Practice-SQL/03-Database-Popolati",
-    "basi-di-dati/02-Practice-SQL/02-Operatori-Aggregativi/Operatori aggregativi.md",
-    "basi-di-dati/01-Teoria/Progetto logico ER.md",
-    "basi-di-dati/01-Teoria/Schema relazionale grafico.md",
-    "basi-di-dati/03-Modelli-ER/Modello ER Assicurazioni.md",
-    "basi-di-dati/03-Modelli-ER/Modello ER Universita.md",
-    "basi-di-dati/02-Practice-SQL/01-COMANDI/SET.md",
-    "ricerca-operativa/01-Teoria/Caratterizzazione di un problema di PL.md",
     "ricerca-operativa/02-Practice",
     "ricerca-operativa/01-Teoria",
-    "basi-di-dati/02-Practice-SQL/02-Operatori-Aggregativi",
-    "basi-di-dati/02-Practice-SQL",
-    "basi-di-dati/2024-10-14.md",
+    "basi-di-dati/02-Practice-SQL/02-Query",
     "basi-di-dati/risorse-professore/mini-db-esami/MINI_ESAMI.jpg",
-    "Drawing 2024-10-14 17.46.11.excalidraw.md",
     "basi-di-dati/_images/fattura-riga-ER.svg",
-    "Drawing 2024-10-14 17.09.44.excalidraw.md",
     "basi-di-dati/_images/schemaER-vettura-persona-polizza.svg",
     "basi-di-dati/_images/schema-vetture-persone-polizze-Q1.svg",
-    "schema-vetture-persone-polizze-Q1.md",
-    "schema-stud-corsi-Q2.md",
     "basi-di-dati/_images/schema-stud-corsi-Q2.svg",
     "basi-di-dati/_images/tabella-fatture.svg",
-    "basi-di-dati/_images/tabella-fatt-riga-Q1.svg",
-    "basi-di-dati/_images/tabella-stud-fatt-Q1.svg",
-    "basi-di-dati/_images/tabelle-studenti-esami.svg",
-    "fifthexcali.md",
-    "fourthexcali.md",
-    "thirdexcali.md",
-    "ricerca-operativa/_images/vincoli-esercizio-multiplant.png",
     "Untitled.canvas"
   ]
 }
