@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e3ff8de2ad48a88a",
+        "id": "6a416cc130976777",
         "type": "tabs",
         "children": [
           {
-            "id": "1595d584c7f70d9a",
+            "id": "40b44a8418e70aea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "basi-di-dati/03-modelli-ER/Modello ER Biblioteca.md",
+                "file": "ricerca-operativa/2024-10-16.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "basi-di-dati/03-modelli-ER/Modello ER Biblioteca.md",
+                "file": "ricerca-operativa/2024-10-16.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "basi-di-dati/03-modelli-ER/Modello ER Biblioteca.md",
+                "file": "ricerca-operativa/2024-10-16.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "basi-di-dati/03-modelli-ER/Modello ER Biblioteca.md"
+                "file": "ricerca-operativa/2024-10-16.md"
               }
             }
           }
@@ -149,16 +149,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1595d584c7f70d9a",
+  "active": "40b44a8418e70aea",
   "lastOpenFiles": [
-    "basi-di-dati/_images/modello-er-biblioteca.svg",
-    "basi-di-dati/03-modelli-ER/Modello ER Biblioteca.md",
-    "basi-di-dati/03-modelli-ER/Modello ER Universita.md",
-    "basi-di-dati/01-Teoria/Progetto logico ER.md",
+    "ricerca-operativa/01-Teoria/Relazione di un poliedro contenente una retta.md",
+    "ricerca-operativa/01-Teoria/Lemma del Miglioramento della Soluzione in PL.md",
+    "ricerca-operativa/01-Teoria/Caratterizzazione di un problema di PL.md",
+    "ricerca-operativa/2024-10-16.md",
     "basi-di-dati/01-Teoria/01-SQL/Subquery.md",
-    "basi-di-dati/2024-10-15.md",
     "basi-di-dati/01-Teoria/01-SQL/Structured Query Language.md",
     "basi-di-dati/01-Teoria/01-SQL/Operatori aggregativi.md",
+    "basi-di-dati/01-Teoria/Progetto logico ER.md",
     "basi-di-dati/01-Teoria/Schema relazionale grafico.md",
     "basi-di-dati/02-Practice-SQL/01-COMANDI/CREATE VIEW.md",
     "basi-di-dati/02-Practice-SQL/01-COMANDI/DELETE FROM.md",
@@ -172,14 +172,15 @@
     "basi-di-dati/03-Modelli-ER/Modello ER Biblioteca.md",
     "basi-di-dati/03-Modelli-ER/Modello ER Assicurazioni.md",
     "basi-di-dati/03-Modelli-ER/Modello ER Universita.md",
+    "basi-di-dati/2024-10-15.md",
     "basi-di-dati/_images/diagramma-stati-richiesta-stato.svg",
+    "basi-di-dati/_images/modello-er-biblioteca.svg",
     "Drawing 2024-10-15 11.23.24.excalidraw.md",
     "Drawing 2024-10-15 12.10.07.excalidraw.md",
     "basi-di-dati/01-Teoria/01-SQL",
     "basi-di-dati/02-Practice-SQL/01-COMANDI/SQL - Operatori aggregativi - STUDENTI.md",
     "basi-di-dati/02-Practice-SQL/02-Operatori-Aggregativi/SQL - Operatori aggregativi - STUDENTI.md",
     "basi-di-dati/_images/schema-esempio-subquery2.svg",
-    "Drawing 2024-10-15 09.57.12.excalidraw.md",
     "basi-di-dati/_images/schema-esempio-subquery1.svg",
     "basi-di-dati/_risorse-professore/database-corsi.db",
     "_resources",
