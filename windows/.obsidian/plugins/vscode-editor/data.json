@@ -11,7 +11,8 @@
     "java",
     "lua",
     "php",
-    "txt"
+    "txt",
+    "sql"
   ],
   "folding": true,
   "lineNumbers": true,
@@ -20,5 +21,5 @@
   "semanticValidation": true,
   "syntaxValidation": true,
   "themeColor": "AUTO",
-  "fontSize": 15
+  "fontSize": 17
 }
