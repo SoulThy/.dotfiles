@@ -1,8 +1,8 @@
 [
   "symbols-prettifier",
   "obsidian-latex-suite",
-  "colored-text",
   "omnisearch",
   "obsidian-excalidraw-plugin",
-  "vscode-editor"
+  "vscode-editor",
+  "obsidian-relative-line-numbers"
 ]

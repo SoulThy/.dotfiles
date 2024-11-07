@@ -3,5 +3,7 @@
   "showRibbon": true,
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "vimMode": true,
+  "showLineNumber": true
 }
