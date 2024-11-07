@@ -4,5 +4,8 @@
     "image_zoom2"
   ],
   "theme": "obsidian",
-  "baseFontSize": 18
+  "baseFontSize": 16,
+  "monospaceFontFamily": "UbuntuMono Nerd Font Mono",
+  "textFontFamily": "",
+  "baseFontSizeAction": true
 }
