@@ -49,6 +49,11 @@ vim.keymap.set('n', '<C-l>', '<C-w><C-l>', { desc = 'Move focus to the right win
 vim.keymap.set('n', '<C-j>', '<C-w><C-j>', { desc = 'Move focus to the lower window' })
 vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper window' })
 
+-- Keybindings for buffers navigation
+vim.keymap.set('n', '<leader><leader>', ':b#<CR>', { desc = 'Toggle between the two most recent buffers' })
+vim.keymap.set('n', '[b', ':bprev<CR>', { desc = 'Go to previous buffer' })
+vim.keymap.set('n', ']b', ':bnext<CR>', { desc = 'Go to next buffer' })
+
 -- Keybindings from terminal
 vim.keymap.set('t', '<Esc>', '<C-\\><C-n>', { noremap = true, silent = true , desc = 'Exit terminal mode with Escape'})
 vim.keymap.set('t', '<C-h>', '<C-\\><C-n><C-w><C-h>', { desc = 'Move focus to the left window from terminal' })
