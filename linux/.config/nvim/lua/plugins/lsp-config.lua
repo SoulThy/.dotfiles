@@ -29,8 +29,8 @@ return{
             setup_lsp("jedi_language_server") -- Python LSP
             setup_lsp("clangd") -- C/C++ LSP
 
-            vim.keymap.set('n', '[d', vim.lsp.diagnostic.goto_prev, { desc = 'Previous diagnostic' })
-            vim.keymap.set('n', ']d', vim.lsp.diagnostic.goto_next, { desc = 'Next diagnostic' })
+            vim.keymap.set('n', '[d', vim.diagnostic.goto_prev, { desc = 'Previous diagnostic' })
+            vim.keymap.set('n', ']d', vim.diagnostic.goto_next, { desc = 'Next diagnostic' })
             vim.keymap.set('n', 'K', vim.lsp.buf.hover, { desc = 'Show hover information' })
             vim.keymap.set('n', '<leader>ca', vim.lsp.buf.code_action, { desc = 'Show code actions' })
         end
