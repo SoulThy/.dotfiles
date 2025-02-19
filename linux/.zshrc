@@ -106,23 +106,33 @@ source $ZSH/oh-my-zsh.sh
 
 eval "$(zoxide init zsh)"
 
-# Use nvim for man
+# Use nvim for man pages with relative line numbers
 export MANPAGER="nvim -c 'Man!' -c 'set relativenumber'"
 
-alias zshconfig="nvim ~/.zshrc"
-alias ohmyzsh="nvim ~/.oh-my-zsh"
-alias winhome='cd /mnt/c/Users/toast'
-alias uni='cd ~/windaniel/Documents/Universita'
-alias gitstatusall='find . -type d -name ".git" | while read dir; do sh -c "cd $dir/../ && echo -e \"\nGIT STATUS IN ${dir//\.git/}\" && git status -s"; done'
+# Open config files with Neovim
+alias zshconfig='nvim $HOME/.zshrc'
+alias ohmyzsh='nvim $HOME/.oh-my-zsh'
 
+# Navigation Aliases
+alias winhome='cd /mnt/c/Users/toast'
+alias uni='cd $HOME/windaniel/Documents/Universita'
+alias dotfiles='cd $HOME/windaniel/Documents/.dotfiles'
+
+# Git status for all repositories
+alias gitstatusall='find . -type d -name ".git" -exec sh -c "cd \$(dirname \{\})/../ && echo -e \"\nGIT STATUS IN \$(dirname \{\})\" && git status -s" \;'
+
+# Use batcat if available
 if command -v batcat &> /dev/null; then
-    alias cat='batcat'
+    alias cat='batcat --paging=never'
 fi
 
+# Use z if available
 if command -v z &> /dev/null; then
     alias cd='z'
 fi
 
-if [[ -d "${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions" ]]; then
-    bindkey '^J' autosuggest-execute # bind CLTR+ENTER
+# Bind CTRL+ENTER to autosuggestions if the plugin is available
+if [[ -d "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-autosuggestions" ]]; then
+    bindkey '^J' autosuggest-execute  # bind CTRL+ENTER
 fi
+
