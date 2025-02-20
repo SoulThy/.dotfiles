@@ -116,7 +116,7 @@ alias ohmyzsh='nvim $HOME/.oh-my-zsh'
 # Navigation Aliases
 alias winhome='cd /mnt/c/Users/toast'
 alias uni='cd $HOME/windaniel/Documents/Universita'
-alias dotfiles='cd $HOME/windaniel/Documents/.dotfiles'
+alias dotfiles='cd $HOME/dev/environment'
 
 # Git status for all repositories
 alias gitstatusall='find . -type d -name ".git" -exec sh -c "cd \$(dirname \{\})/../ && echo -e \"\nGIT STATUS IN \$(dirname \{\})\" && git status -s" \;'
