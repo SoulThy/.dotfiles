@@ -1,0 +1,13 @@
+bat
+build-essential
+git
+unzip
+neovim
+python3
+python3-pip
+python3-venv
+ripgrep
+stow
+tree
+unzip
+zsh
