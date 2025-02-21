@@ -20,8 +20,7 @@ vim.keymap.set('t', '<C-J>', '<C-J>', { noremap = true, silent = true, desc = 'M
 
 -- Yank and Paste (win32yank)
 vim.keymap.set('n', '<leader>y', '"+y', { noremap = true, silent = true, desc = 'Yank to system clipboard' })
-vim.keymap.set('v', '<leader>y', '"+y', { noremap = true, silent = true, desc = 'Yank to system clipboard' })
-vim.keymap.set('n', '<leader>p', '"+p', { noremap = true, silent = true, desc = 'Paste from system clipboard' })
+vim.keymap.set('v', '<leader>y', '"+y', { noremap = true, silent = true, desc = 'Yank to system clipboard' }) vim.keymap.set('n', '<leader>p', '"+p', { noremap = true, silent = true, desc = 'Paste from system clipboard' })
 vim.keymap.set('v', '<leader>p', '"+p', { noremap = true, silent = true, desc = 'Paste from system clipboard' })
 
 -- Clear highlights on search when pressing <Esc> in normal mode
@@ -30,10 +29,27 @@ vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 -- Open terminal to the right side
 
 local function openTerminalRight()
+    -- Find if we already have a terminal buffer
+    local terminal_bufnr = nil
+    for _, buf in ipairs(vim.api.nvim_list_bufs()) do
+        local buf_type = vim.api.nvim_buf_get_option(buf, 'buftype')
+        if buf_type == 'terminal' then
+            terminal_bufnr = buf
+            break
+        end
+    end
+
     vim.cmd("rightbelow vsplit")
-    vim.cmd("terminal")
+
+    if terminal_bufnr then
+        vim.api.nvim_win_set_buf(0, terminal_bufnr)
+    else
+        vim.cmd("terminal")
+    end
+
     vim.cmd("vertical resize 40")
 end
 
 vim.keymap.set('n', '<C-w>t', openTerminalRight, {noremap = true, silent = true, desc = 'Open [T]erminal on the right side'})
+
 
