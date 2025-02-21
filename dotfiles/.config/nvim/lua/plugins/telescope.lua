@@ -11,6 +11,11 @@ return{
                         i = { ["<C-q>"] = require('telescope.actions').select_vertical },
                         n = { ["<C-q>"] = require('telescope.actions').select_vertical },
                     }
+                },
+                pickers = {
+                    find_files = {
+                        hidden = true,
+                    }
                 }
             }
 
