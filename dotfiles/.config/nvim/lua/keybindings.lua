@@ -26,8 +26,12 @@ vim.keymap.set('v', '<leader>p', '"+p', { noremap = true, silent = true, desc = 
 -- Clear highlights on search when pressing <Esc> in normal mode
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 
--- Open terminal to the right side
+-- Keybindings for development in nvim
+vim.keymap.set('n', '<leader><leader>x', function() vim.cmd('source %') print('Sourced Current File! :)') end, {desc = 'Source current file'})
+vim.keymap.set('n', '<leader>x', ':.lua<CR>', {noremap = true, desc = 'E[X]ecute the current line of lua'})
+vim.keymap.set('v', '<leader>x', ':lua<CR>', {noremap = true, desc = 'E[X]ecute the selected lines of lua'})
 
+-- Open terminal to the right side
 local function openTerminalRight()
     -- Find if we already have a terminal buffer
     local terminal_bufnr = nil
@@ -47,7 +51,7 @@ local function openTerminalRight()
         vim.cmd("terminal")
     end
 
-    vim.cmd("vertical resize 40")
+   vim.cmd("vertical resize 40")
 end
 
 vim.keymap.set('n', '<C-w>t', openTerminalRight, {noremap = true, silent = true, desc = 'Open [T]erminal on the right side'})
