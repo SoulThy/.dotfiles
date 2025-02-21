@@ -32,7 +32,7 @@ local function openTerminalRight()
     -- Find if we already have a terminal buffer
     local terminal_bufnr = nil
     for _, buf in ipairs(vim.api.nvim_list_bufs()) do
-        local buf_type = vim.api.nvim_buf_get_option(buf, 'buftype')
+        local buf_type = vim.api.nvim_get_option_value('buftype', {buf = buf})
         if buf_type == 'terminal' then
             terminal_bufnr = buf
             break
@@ -51,5 +51,3 @@ local function openTerminalRight()
 end
 
 vim.keymap.set('n', '<C-w>t', openTerminalRight, {noremap = true, silent = true, desc = 'Open [T]erminal on the right side'})
-
-
