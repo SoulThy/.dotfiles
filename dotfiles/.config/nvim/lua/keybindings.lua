@@ -31,27 +31,54 @@ vim.keymap.set('n', '<leader><leader>x', function() vim.cmd('source %') print('S
 vim.keymap.set('n', '<leader>x', ':.lua<CR>', {noremap = true, desc = 'E[X]ecute the current line of lua'})
 vim.keymap.set('v', '<leader>x', ':lua<CR>', {noremap = true, desc = 'E[X]ecute the selected lines of lua'})
 
--- Open terminal to the right side
+-- Script to Open Terminal on the Right side
 local function openTerminalRight()
-    -- Find if we already have a terminal buffer
     local terminal_bufnr = nil
+    local terminal_win = nil
+
     for _, buf in ipairs(vim.api.nvim_list_bufs()) do
         local buf_type = vim.api.nvim_get_option_value('buftype', {buf = buf})
         if buf_type == 'terminal' then
             terminal_bufnr = buf
-            break
+            local win_id = vim.fn.bufwinid(terminal_bufnr)
+            if win_id ~= -1 then
+                terminal_win = win_id
+                break
+            end
         end
     end
 
-    vim.cmd("rightbelow vsplit")
 
-    if terminal_bufnr then
-        vim.api.nvim_win_set_buf(0, terminal_bufnr)
+    if terminal_win then
+        vim.api.nvim_set_current_win(terminal_win)
     else
-        vim.cmd("terminal")
+        vim.cmd("rightbelow vsplit")
+        if terminal_bufnr then
+            vim.api.nvim_win_set_buf(0, terminal_bufnr)
+        else
+            vim.cmd("terminal")
+            terminal_bufnr = vim.api.nvim_get_current_buf()
+        end
+        vim.cmd("vertical resize 40")
     end
 
-   vim.cmd("vertical resize 40")
+    vim.cmd("startinsert")
+
+    return terminal_bufnr
 end
 
 vim.keymap.set('n', '<C-w>t', openTerminalRight, {noremap = true, silent = true, desc = 'Open [T]erminal on the right side'})
+
+-- Run python3 on current file
+local function runPython()
+    local current_file = vim.api.nvim_buf_get_name(0)
+    local command = "python3"
+
+    local bufnr = openTerminalRight()
+
+    local job_id = vim.bo[bufnr].channel
+
+    vim.api.nvim_chan_send(job_id,command .. " " .. current_file .. "\n")
+end
+
+vim.keymap.set('n', '<leader>rp', runPython, {noremap = true, silent = true, desc = '[R]un [P]ython on current script'})
