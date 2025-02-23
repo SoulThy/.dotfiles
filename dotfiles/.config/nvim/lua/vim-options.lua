@@ -12,6 +12,10 @@ vim.opt.scrolloff = 10
 vim.opt.relativenumber = true
 vim.opt.number = true
 
+vim.opt.wrap = true
+vim.opt.linebreak = true
+vim.opt.breakindent = true
+
 -- Don't show the mode, since it's already in the status line
 vim.opt.showmode = false
 vim.o.sessionoptions="blank,buffers,curdir,folds,help,tabpages,winsize,winpos,terminal,localoptions"
