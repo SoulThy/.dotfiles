@@ -1,19 +1,5 @@
 return{
     {
-        "williamboman/mason.nvim",
-        config = function()
-            require("mason").setup()
-        end
-    },
-    {
-        "williamboman/mason-lspconfig.nvim",
-        config = function()
-            require("mason-lspconfig").setup({
-                ensure_installed = { "lua_ls", "jedi_language_server","clangd"}
-            })
-        end
-    },
-    {
         "neovim/nvim-lspconfig",
         dependencies = {
             {
@@ -42,7 +28,7 @@ return{
             setup_lsp("jedi_language_server") -- Python LSP
             setup_lsp("clangd") -- C/C++ LSP
 
-            vim.keymap.set('n', '[d', function() 
+            vim.keymap.set('n', '[d', function()
                 vim.diagnostic.jump({ count = -1, float = true })
             end, { desc = 'Previous diagnostic' })
 
