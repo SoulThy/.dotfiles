@@ -18,16 +18,27 @@ return {
         local configs = require("nvim-treesitter.configs")
         configs.setup({
             ensure_installed = ensure_installed,
-            auto_install = true,
+            auto_install = true, -- Auto-install missing parsers
             highlight = {
-                enable = true,
+                enable = true, -- Enable Treesitter syntax highlighting
             },
             indent = {
-                enable = true,
+                enable = true, -- Enable Treesitter-based indentation
             },
             modules = {},
-            sync_install = false,
+            sync_install = false, -- Install parsers asynchronously
             ignore_install = {},
+
+            textobjects = {
+                select = {
+                    enable = true,
+                    lookahead = true, -- Auto-jump to the best match
+                    keymaps = {
+                        ["af"] = "@function.outer", -- Select whole function
+                        ["if"] = "@function.inner", -- Select inside function
+                    },
+                },
+            },
         })
     end
 }
