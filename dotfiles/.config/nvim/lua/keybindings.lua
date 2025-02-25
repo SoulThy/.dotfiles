@@ -27,7 +27,7 @@ vim.keymap.set('v', '<leader>p', '"+p', { noremap = true, silent = true, desc = 
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 
 -- Keybindings for development in nvim
-vim.keymap.set('n', '<leader><leader>x', function() vim.cmd('source %') print('Sourced Current File! :)') end, {desc = 'Source current file'})
+vim.keymap.set('n', '<leader>sm', function() vim.cmd('source %') print('Sourced Current File! :)') end, {desc = '[S]ource [M]e, source current file'})
 vim.keymap.set('n', '<leader>x', ':.lua<CR>', {noremap = true, desc = 'E[X]ecute the current line of lua'})
 vim.keymap.set('v', '<leader>x', ':lua<CR>', {noremap = true, desc = 'E[X]ecute the selected lines of lua'})
 
