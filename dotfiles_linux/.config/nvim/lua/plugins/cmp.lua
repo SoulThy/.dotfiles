@@ -25,6 +25,7 @@ return {
                 }),
                 sources = cmp.config.sources({
                     { name = "nvim_lsp" }, -- Enable LSP-based completion
+                    { name = "path" }, -- Enable LSP-based completion
                 },
                 {
                     { name = "buffer" }, -- Enable buffer-based completion
