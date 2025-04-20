@@ -1,3 +1,5 @@
 #!/bin/bash
 
-stow -R -v -t $HOME -d dotfiles .
+DOTFILES=dotfiles_linux
+
+stow -R -v -t $HOME -d "$DOTFILES" .
