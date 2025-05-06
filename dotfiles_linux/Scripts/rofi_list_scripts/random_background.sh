@@ -1,0 +1,1 @@
+/home/daniel/Scripts/random_background.sh
